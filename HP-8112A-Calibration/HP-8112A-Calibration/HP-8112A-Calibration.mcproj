@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4f6fda20-b895-48bc-bf34-a61af5a2686a</ProjectGuid>
+    <RootNamespace>HP_8112A_Calibration</RootNamespace>
+    <AssemblyName>HP-8112A-Calibration</AssemblyName>
+    <Name>HP-8112A-Calibration</Name>
+    <InstrumentLine1>HP 8112A Pulse Generator Verification</InstrumentLine1>
+    <PublishFileName>HP-8112A-Calibration</PublishFileName>
+    <PackageDate>2021-08-18</PackageDate>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.mc">
+      <MainProcedure>True</MainProcedure>
+      <SectionedProcedure>True</SectionedProcedure>
+    </Compile>
+    <Compile Include="Sub Preamble.mc">
+      <MainProcedure>False</MainProcedure>
+      <SectionedProcedure>False</SectionedProcedure>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.jpg" />
+    <Content Include="2.jpg" />
+    <Content Include="3.jpg" />
+    <Content Include="4.jpg" />
+  </ItemGroup>
+</Project>
