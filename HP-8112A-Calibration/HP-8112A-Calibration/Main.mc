@@ -1,7 +1,7 @@
 Kallab                                                      MET/CAL Procedure
 =============================================================================
 INSTRUMENT:            HP 8112A Pulse Generator Verification
-DATE:                  2021-08-18 16:32:36
+DATE:                  2021-08-19 11:11:00
 AUTHOR:                Antti Harala
 REVISION:
 ADJUSTMENT THRESHOLD:  70%
@@ -14,7 +14,7 @@ NUMBER OF LINES:       362
   1.001  MEM2         F-number of the manual standard using format
   1.001  MEM2         Manufacturer Model (F-Number):
 
-  1.002  RSLT         =Measurement standard [MEM2]
+  1.002  RSLT         =Measurement standard: [MEM2]
 
   1.003  DISP         The pictures presented in the procedure are
   1.003  DISP         for general guidelines. All measurements are

@@ -8,7 +8,7 @@
     <Name>HP-8112A-Calibration</Name>
     <InstrumentLine1>HP 8112A Pulse Generator Verification</InstrumentLine1>
     <PublishFileName>HP-8112A-Calibration</PublishFileName>
-    <PackageDate>2021-08-18</PackageDate>
+    <PackageDate>2021-08-19</PackageDate>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
   </PropertyGroup>
